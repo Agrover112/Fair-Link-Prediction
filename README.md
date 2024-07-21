@@ -5,7 +5,7 @@ In the project we explore if MovieLens-100K data has biases wrt to gender, by tr
 
 Methods used for Link-Prediction:
 - GNNs
-- Network based methods
+- Network based methods.
 
 ### Performance metrics for different feature ablations
 
@@ -67,6 +67,7 @@ Three post-processing methods were used for de-biasing the rating differences be
 | <mark>GAT-5L + Linear Opt. Weights</mark>    | **0.6349** | **0.7643** | **0.87921** | **0.7051** | **0.8334** | 0.0219       | 0.0034      |
 
 Graph Showcases how probability distribution of male and female ratings are shifted in GATConv-5L. One can notice that re-weighting via linear optimization shifts the density of female probability ratings , almost like a lifter in Speech processing and reduces the width of probability distribution of male rating distributions. For GraphConv-3L we observe something similar with density but given better parity scores we notice that shifting the pdf of female group towards right and making the width of male pdf smaller results in somewhat better parity between the two groups.
+
 The bi-modal nature of the predictions is due to the experimental choice to split ratings into 0/1 labels.
 
 ![871315be-48c2-41f0-bd44-e3c2854a2aa1 height="250"](https://github.com/user-attachments/assets/8575c99f-25ee-4437-9767-51eec8237a97)
