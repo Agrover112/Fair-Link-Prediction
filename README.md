@@ -20,7 +20,7 @@ SAGEConv and other models were tested with features which would balance accuracy
 
 ### Performance measures for the different models tested
 
-| **Model**                 |     | **AUC**   | **Accuracy** | **F1-score** | **Precision** | **Recall** | **SP**     | **EO**     |
+| **Model**                 |     | **AUC**   | **Accuracy** | **F1-score** | **Precision** | **Recall** |  **SP**     | **EO**     |
 |---------------------------|-----|-----------|--------------|--------------|---------------|------------|------------|------------|
 | **Bi-common-neighbors**   |     | 0.8584    | 0.7424       | 0.7001       | 0.5888        | 0.8632     |            |            |
 | **Bi-Adamic-Adar**        |     | 0.8599    | 0.7436       | 0.7017       | **0.5907**    | 0.8642     |            |            |
