@@ -10,6 +10,7 @@ Methods used for Link-Prediction:
 ### Performance metrics for different feature ablations
 
 SAGEConv and other models were tested with features which would balance accuracy and fairness metric performance.
+Mean aggreations are used wherever necessary as they would lead to more generalized features.
 
 | **Feature Ablation**            | **AUC**   | **Accuracy** | **F1**   | **SP**     | **EO**     |
 |---------------------------------|-----------|--------------|----------|------------|------------|
